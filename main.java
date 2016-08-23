@@ -40,7 +40,7 @@ public class main {
         AbstractStack stackFactoryResult = AbstractFactory.getStack(tipo);
         Stack<String> pila = stackFactoryResult;
         calc.setPila(pila);
-        String cadena = muestraContenido("C:\Users\Esteban Avalos\Desktop/archivo.txt");
+        String cadena = muestraContenido("C:\Users\Esteban Avalos\Desktop\archivo.txt");
         int resultado = calc.evaluar( cadena );
         System.out.println("El resultado es: "+resultado);
     }
